@@ -1,2 +1,0 @@
-[tljh]
-matlabplugin = tljh_matlabplugin.tljh_matlabplugin

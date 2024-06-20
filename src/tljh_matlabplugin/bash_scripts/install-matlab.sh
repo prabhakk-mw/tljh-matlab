@@ -1,4 +1,6 @@
 #!/bin/bash
+# Copyright 2024 The MathWorks, Inc.
+
 # Example invocation:
 # subprocess.call(["bash", "/mathworks/devel/sandbox/prabhakk/cit/jupyter/tljh/the-littlest-jupyterhub/tljh_matlabplugin/install-matlab.sh"],
 #                     env={"MATLAB_RELEASE":"R2024a", "MATLAB_PRODUCT_LIST":"MATLAB Simulink"})
