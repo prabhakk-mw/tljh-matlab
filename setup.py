@@ -1,3 +1,4 @@
+# Copyright 2024 The MathWorks, Inc.
 from setuptools import setup, find_namespace_packages
 
 setup(
