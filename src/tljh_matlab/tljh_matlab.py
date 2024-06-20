@@ -6,7 +6,8 @@ MATLAB plugin that installs MATLAB, its dependencies and the MATLAB Integration 
 
 from tljh.hooks import hookimpl
 
-from . import get_extra_apt_packages_for_matlab, install_matlab
+from . import get_extra_apt_packages_for_matlab
+from . import install_matlab
 
 
 @hookimpl
@@ -16,12 +17,12 @@ def tljh_extra_user_pip_packages():
 
 @hookimpl
 def tljh_extra_apt_packages():
-    return get_extra_apt_packages_for_matlab()
+    return get_extra_apt_packages_for_matlab.get_extra_apt_packages_for_matlab_impl()
 
 
 @hookimpl
 def tljh_post_install():
-    install_matlab()
+    install_matlab.install_matlab_impl()
 
 
 # @hookimpl

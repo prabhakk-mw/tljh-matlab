@@ -21,7 +21,7 @@ echo "MATLAB_PRODUCT_LIST: $MATLAB_PRODUCT_LIST"
 echo "MATLAB_INSTALL_DESTINATION: $MATLAB_INSTALL_DESTINATION"
 
 # Run mpm to install MATLAB in the target location and delete the mpm installation afterwards
-wget -q https://www.mathworks.com/mpm/glnxa64/mpm && \
+curl -L -O https://www.mathworks.com/mpm/glnxa64/mpm && \
 chmod +x mpm && \
 ./mpm install \
 --release=${MATLAB_RELEASE} \
