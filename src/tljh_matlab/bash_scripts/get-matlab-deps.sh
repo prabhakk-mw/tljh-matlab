@@ -2,7 +2,7 @@
 # Copyright 2024 The MathWorks, Inc.
 
 # Example invocation:
-# subprocess.call(["bash", "/mathworks/devel/sandbox/prabhakk/cit/jupyter/tljh/the-littlest-jupyterhub/tljh_matlabplugin/get-matlab-deps"],
+# subprocess.call(["bash", "/mathworks/devel/sandbox/prabhakk/cit/jupyter/tljh/the-littlest-jupyterhub/tljh_matlab/get-matlab-deps"],
 #                     env={"MATLAB_RELEASE":"R2024a", "OUTPUT_FILE":"myfile.txt", "OS":"ubuntu20.04"})
 
 # Set the default release to R2024a.

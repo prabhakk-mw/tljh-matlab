@@ -1,6 +1,6 @@
 # Copyright 2024 The MathWorks, Inc.
 
-from tljh_matlabplugin import get_extra_apt_packages_for_matlab as testmodule
+from tljh_matlab import get_extra_apt_packages_for_matlab as testmodule
 import unittest
 from unittest import mock
 import os
