@@ -15,7 +15,7 @@ setup(
     include_package_data=True,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="github.com/prabhakk-mw/tljh-matlab",
+    url="https://github.com/prabhakk-mw/tljh-matlab",
     author="The MathWorks, Inc.",
     author_email="cloud@mathworks.com",
     license="MATHWORKS CLOUD REFERENCE ARCHITECTURE LICENSE",
