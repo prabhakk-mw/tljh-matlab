@@ -14,7 +14,7 @@ Command to install plugin:
 ```bash
 docker run   --privileged   --detach   --name=tljh-dev   --publish 12000:80   --mount type=bind,source="$(pwd)",target=/srv/src  tljh-systemd
 docker exec -it tljh-dev /bin/bash
-python3 /srv/src/bootstrap/bootstrap.py --admin admin:password --plugin /srv/src/tljh_matlabplugin/
+python3 /srv/src/bootstrap/bootstrap.py --admin admin:password --plugin tljh-matlab
 ```
 
 To customize the default values used by the plugin , set the appropriate environment variable before the `bootstrap` command
@@ -28,7 +28,7 @@ To customize the default values used by the plugin , set the appropriate environ
 
 Example:
 ```bash
-env MATLAB_RELEASE=R2023b MATLAB_PRODUCT_LIST="MATLAB Simulink" python3 /srv/src/bootstrap/bootstrap.py --admin admin:password --plugin /srv/src/tljh_matlabplugin/
+env MATLAB_RELEASE=R2023b MATLAB_PRODUCT_LIST="MATLAB Simulink" python3 /srv/src/bootstrap/bootstrap.py --admin admin:password --plugin tljh-matlab
 ```
 
 
