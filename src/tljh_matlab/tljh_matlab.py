@@ -22,6 +22,12 @@ def tljh_extra_apt_packages():
 
 @hookimpl
 def tljh_post_install():
+    """
+    Post install script to be executed after installation
+    and after all the other hooks.
+
+    This can be arbitrary Python code.
+    """
     install_matlab.install_matlab_impl()
 
 

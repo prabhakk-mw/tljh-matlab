@@ -8,7 +8,7 @@ long_description = (HERE / "README.md").read_text()
 setup(
     name="tljh-matlab",
     entry_points={"tljh": ["matlab = tljh_matlab.tljh_matlab"]},
-    version="0.0.3",
+    version="0.0.4",
     packages=find_namespace_packages(where="src"),
     package_dir={"": "src"},
     package_data={"tljh_matlab.bash_scripts": ["*.sh"]},
